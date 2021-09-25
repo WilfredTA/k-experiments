@@ -18,12 +18,13 @@ Clone this repo with submodules:
 
 Then `cd ./k-experiments`
 
-Then, just run these four make recipes, one by one:
+Then, just run these make recipes, one by one:
 
 ```nix
 make nix-cache
 make k-framework
 make k-backend
+make start
 make example
 ```
 

@@ -7,7 +7,7 @@ nix-cache:
 	cachix use kore
 
 k-framework:
-	cd k && nix-build -A k
+	cd k && rm .git && nix-build -A k
 
 k-backend:
 	cd k && nix-build -A haskell-backend
