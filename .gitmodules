@@ -1,0 +1,6 @@
+[submodule "understanding-k-framework"]
+	path = understanding-k-framework
+	url = https://github.com/ehildenb/understanding-k-framework
+[submodule "k"]
+	path = k
+	url = https://github.com/kframework/k
